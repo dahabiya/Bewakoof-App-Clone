@@ -1,0 +1,11 @@
+.maindiv3{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    padding:20px;
+    font-size: large;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}

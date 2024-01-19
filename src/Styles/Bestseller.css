@@ -1,0 +1,33 @@
+.head1{
+    text-align: center;
+    padding:10px;
+}
+
+.best-seller-container{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+
+.product-image{
+    width:220px;
+    height:320px;
+}
+.inner-div{
+    display:grid;
+    grid-template-columns: 100%;
+    width:220px;
+    margin-bottom:3px;
+}
+
+.product-description{
+    color:grey;
+    font-size: 10px;
+}
+
+.btn-fav{
+    padding:2px;
+    background-color: inherit;
+    border: none;
+}

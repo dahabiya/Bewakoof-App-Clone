@@ -1,0 +1,15 @@
+.top-nav-ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 8fr 1fr 1fr;
+    background-color: rgb(235,236,235);
+    font-size: 10.5px;
+    font-family:sans-serif;
+    color:rgb(47, 46, 46);
+}
+li{
+    padding: 8px;
+}
+.f-li{
+    margin-left: 100px;
+}

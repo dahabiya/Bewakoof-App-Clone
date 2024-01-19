@@ -1,0 +1,39 @@
+.details-container{
+    display:grid;
+    grid-template-columns: 48% 52%;
+    margin-top:40px;
+    margin-right:20px;
+}
+.details-img{
+    width:300px;
+    height:350px;
+    border: .3px solid grey;
+}
+.div2{
+    margin-left:230px;
+}
+.div3{
+    font-weight:bold;
+}
+.product-details{
+    display:flex;
+    flex-direction: column;
+    gap:7px;
+}
+.details-btn{
+    width:140px;
+    height:30px;
+    border:.8px solid grey;
+    margin:8px;
+}
+.wishlist{
+    background-color: inherit;
+}
+.cart{
+    background-color: rgb(243, 181, 58);
+}
+button.wishlist:hover{
+    background-color: rgb(243, 181, 58);
+}
+
+

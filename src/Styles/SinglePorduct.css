@@ -1,0 +1,29 @@
+
+.single-product-image{
+    width:220px;
+    height:320px;
+}
+.single-inner-div{
+    display:grid;
+    grid-template-columns: 78% 22%;
+    width:220px;
+    margin-top:3px;
+}
+
+.single-product-description{
+    color:grey;
+    font-size: 10px;
+    padding-left:2px;
+}
+
+.single-btn-fav{
+    padding:2px;
+    background-color: inherit;
+    border: none;
+}
+.stars{
+    padding-left:2px;
+}
+.single-price{
+    padding-left:2px;
+}

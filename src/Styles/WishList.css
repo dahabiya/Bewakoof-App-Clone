@@ -1,0 +1,70 @@
+.Witems{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    row-gap: 55px;
+    margin-left:70px;
+}
+.Wproduct-image{
+    /* margin-top:20px; */
+    width:220px;
+    height:320px;
+}
+.Winner-div{
+    display:grid;
+    grid-template-columns: 76% 24%;
+    width:220px;
+    margin-top: 5px;
+}
+
+.Wproduct-description{
+    font-size: 10px;
+}
+
+.Wbtn-fav{
+    padding:2px;
+    background-color: inherit;
+    border: none;
+}
+.W-btn{
+    width:225px;
+    background-color: inherit;
+    border: .5px solid grey;
+    height:28px;
+    margin-top:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.W-btn-1{
+    margin-right:5px;
+}
+.Wprice{
+    margin-left:3px;
+}
+
+.dialog{
+    width:400px;
+    height:200px;
+    border: 1px solid black;
+    margin:180px 400px;
+}
+.dialog-p{
+    margin-top:60px;
+    margin-left:40px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.dialog-btn{
+    width: 80px;
+    height:30px;
+    border-radius:0%;
+    background-color:rgb(243, 181, 58);
+    border: .5px solid black;
+    margin-top:20px;
+    margin-left:10px;
+}   
+.btn1{
+    margin-left:110px;
+}

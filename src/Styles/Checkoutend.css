@@ -1,0 +1,29 @@
+.ce-dialog{
+    width:400px;
+    height:200px;
+    border: 1px solid black;
+    margin:180px 400px;
+}
+.ce-dialog-p{
+    margin-top:60px;
+    margin-left:50px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.ce-dialog-btn{
+    border-radius:0%;
+    background-color:rgb(243, 181, 58);
+    border: .5px solid black;
+    margin-top:25px;
+    margin-left:15px;
+}
+.btn3{
+    width: 150px;
+    height:30px;
+    margin-left: 65px;
+}
+.btn4{
+    width: 100px;
+    height:30px;
+}

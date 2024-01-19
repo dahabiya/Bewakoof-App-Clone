@@ -1,0 +1,100 @@
+.heading{
+    font-family:sans-serif;
+    font-size:25px;
+    font-weight: bolder;
+    margin-bottom:15px;
+    margin-top: 10px;
+    margin-left:100px;
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr .5fr 1fr 2fr;
+    /* border:1px solid black; */
+    padding:5px;
+    align-items: center;
+    margin-left:50px;
+}
+.cart-image{
+    width:80px;
+    height:80px;
+    margin-left: 50px;
+}
+.grid-item{
+    justify-content: center;
+    align-items: center;
+}
+.addtocart-btn{
+   width:130px;
+   height: 40px;
+   /* background-color: rgb(38, 110, 161);
+   border:none; */
+}
+.total{
+    padding:20px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:100px;
+}
+.empty{
+    margin-top: 50px;
+    margin-left:520px;
+}
+.chck-out-btn{
+    width:100px;
+   height: 40px;
+   /* background-color: rgb(38, 110, 161); */
+   margin-left: 20px;
+   background-color:rgb(243, 181, 58);
+    border: .5px solid grey;
+}
+.bewakoof-logo{
+    width:165px;
+    height:30px;
+    padding-top:10px;
+    padding-bottom:4px;
+    margin-left: 20px;
+}
+.navv{
+    border-bottom: 1px solid rgb(158, 160, 158);
+    padding-bottom:8px;
+    padding-top:20px;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+.addtocart-btn{
+    background-color:rgb(243, 181, 58);
+    border: .5px solid grey;
+}
+
+.c-dialog{
+    width:400px;
+    height:200px;
+    border: 1px solid black;
+    margin:180px 400px;
+}
+.c-dialog-p{
+    margin-top:60px;
+    margin-left:100px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.c-dialog-btn{
+    width: 80px;
+    height:30px;
+    border-radius:0%;
+    background-color:rgb(243, 181, 58);
+    border: .5px solid black;
+    margin-top:20px;
+    margin-left:10px;
+}   
+.btn1{
+    margin-left:110px;
+}
