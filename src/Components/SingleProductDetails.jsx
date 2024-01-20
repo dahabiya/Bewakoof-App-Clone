@@ -122,7 +122,7 @@ function SingleProductDetails() {
                         ))}
                 </div>
                 <div> ₹ {products.price}</div>
-                <div>{products.description}</div>
+                <div>{products.description.replace(/<[^>]*>?/gm, '')}</div>
                 <div>
 
                     <button 
