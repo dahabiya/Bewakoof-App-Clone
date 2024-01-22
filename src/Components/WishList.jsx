@@ -101,7 +101,7 @@ function WishList() {
           {token?
           <div>
                <div className="navv"><Link to='/'>
-                      <img className='bewakoof-logo' src='/images/bewakoof.jpg'/></Link>
+                      <img className='bewakoof-logo' src='/images/bewakoof.jpg' alt="Bewakoof-Logo"/></Link>
                 </div>
                {  WishListItems.length === 0?
                   <>
