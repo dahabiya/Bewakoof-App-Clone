@@ -1,5 +1,5 @@
 import React from 'react'
-import'../Styles/checkoutend.css'
+import'../Styles/Checkoutend.css'
 import { useNavigate } from 'react-router-dom';
 import { useUser } from '../Provider/UserProvider';
 
