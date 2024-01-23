@@ -58,7 +58,7 @@ useEffect(() => {
         </div>
 
         <div className="dropdown left-elements padng">
-         <button className="dropbtn">MEN</button>
+         <button className="dropbtn">ALL CATEGORIES</button>
          <div className="dropdown-content">
          {categories.map((category, index) => (
               <Link to={`/category/${category}`}>{category}</Link>
@@ -66,14 +66,14 @@ useEffect(() => {
         </div>
         </div>
 
-        <div className="dropdown left-elements padng">
+        {/* <div className="dropdown left-elements padng">
          <button className="dropbtn">WOMEN</button>
          <div className="dropdown-content">
          {categories.map((category, index) => (
               <Link to={`/category/${category}`}>{category}</Link>
             ))}
         </div>
-        </div>
+        </div> */}
 
         <div className="left-elements padng link">MOBILE COVERS</div>
 
