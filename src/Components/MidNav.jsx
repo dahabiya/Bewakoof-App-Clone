@@ -54,7 +54,7 @@ useEffect(() => {
   return (
     <div className='maindiv2'>
         <div className="left-elements"><Link to='/'>
-        <img className='bewakoof-logo' src='/images/bewakoof-logo.png' alt="Bewakoof-Logo"/></Link>
+        <img className='bewakoof-logo' src='/public/bewakoof.jpg' alt="Bewakoof-Logo"/></Link>
         </div>
 
         <div className="dropdown left-elements padng">
