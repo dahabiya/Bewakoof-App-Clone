@@ -68,7 +68,7 @@ function Cart() {
         <div> 
 
          <div className="navv"><Link to='/'>
-                <img className='bewakoof-logo' src='/images/bewakoof.jpg' alt="Bewakoof-Logo"/></Link>
+                <img className='bewakoof-logo' src='https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg' alt="Bewakoof-Logo"/></Link>
                 </div>
           
           {
